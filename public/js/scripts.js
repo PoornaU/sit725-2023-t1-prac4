@@ -22,7 +22,7 @@ const submitForm = () => {
     formData.title = $('#title').val();
     formData.image = $('#image').val();
     formData.link = $('#link').val();
-    formData.desciption = $('#desciption').val();
+    formData.description = $('#description').val();
 
     console.log("Form Data Submitted: ", formData);
     addCat(formData);
